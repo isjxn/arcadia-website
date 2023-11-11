@@ -20,9 +20,6 @@ export default function StaffTable({ columns, datas, type }: { columns: Array<St
       return "teamMember";
     } else if (type === StaffTableType.BlogPost) {
       return "blog";
-    } else if (type === StaffTableType.Race) {
-      return "race";
-    }
   }
 
   const visibilityCallback = useCallback(async (id: number, visible: boolean) => {
