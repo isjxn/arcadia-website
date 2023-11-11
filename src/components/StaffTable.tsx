@@ -20,6 +20,7 @@ export default function StaffTable({ columns, datas, type }: { columns: Array<St
       return "teamMember";
     } else if (type === StaffTableType.BlogPost) {
       return "blog";
+    }
   }
 
   const visibilityCallback = useCallback(async (id: number, visible: boolean) => {
