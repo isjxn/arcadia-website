@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.codex-editor__redactor {
+  padding-bottom: 2rem !important;
+}
+
+.test-gradient {
+  mask-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.ce-toolbar__plus, .ce-toolbar__settings-btn {
+  color: white;
+}
+
+.ce-inline-toolbar {
+  color: black;
+}
