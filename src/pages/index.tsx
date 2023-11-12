@@ -9,7 +9,7 @@ export async function getStaticProps() {
   return await getSortedBlogPosts();
 }
 
-export default function App({ blogPosts } : { blogPosts: Array<BlogPost> }) {
+export default function App({ blogPosts }: { blogPosts: Array<BlogPost> }) {
   return (
     <>
       <Head>
@@ -17,11 +17,11 @@ export default function App({ blogPosts } : { blogPosts: Array<BlogPost> }) {
         <meta name="description" content="Arcadia | Home Page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="h-screen bg-[url('/welcome2.png')] flex justify-center items-center">
+      <div className="h-screen bg-[url('/welcome2.png')] flex justify-center items-center test-gradient">
         <div className="w-6/12 p-4 flex flex-col justify-center items-center">
           <p className="text-6xl pb-4 w-fit text-white">Willkommen auf Arcadia!</p>
           <p className="text-xl text-center text-white">
-            Willkommen. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            Tauche ein in eine faszinierende Welt voller Rollenspiel-Abenteuer und entdecke die einzigartige Atmosphäre von Arcadia. Unser Server bietet eine lebendige und immersive Erfahrung, in der du deine eigene Geschichte schreiben kannst. Hierbei legen wir besonderen Wert auf ein ausgewogenes Spielerlebnis, bei dem du die Möglichkeit hast, effektiv zu grinden und so deine Charakterentwicklung voranzutreiben.
           </p>
         </div>
       </div>
