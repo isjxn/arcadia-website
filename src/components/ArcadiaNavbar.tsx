@@ -77,9 +77,9 @@ export default function ArcadiaNavbar() {
             content: "drop-shadow shadow-black text-white",
           }}
           endContent={<FaCopy stroke="white" fill="white" />}
-          onClick={() => void navigator.clipboard.writeText("mc.arcadia.de")}
+          onClick={() => void navigator.clipboard.writeText("???")}
         >
-          IP: mc.arcadia.de
+          IP: ???
         </Chip>
         <ThemeSwitcher />
         {sessionData ? (
@@ -89,11 +89,10 @@ export default function ArcadiaNavbar() {
             <Button
               as={Link}
               color="primary"
-              href="#"
               variant="flat"
               onClick={() => void signIn()}
             >
-              Sign in
+              Einloggen
             </Button>
           </NavbarItem>
         )}
