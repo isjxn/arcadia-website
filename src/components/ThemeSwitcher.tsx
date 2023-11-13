@@ -15,7 +15,7 @@ export const ThemeSwitcher = () => {
   if(!mounted) return null
 
   return (
-    <div>
+    <div className="hidden sm:block">
       <Switch
       defaultSelected={ theme === 'light' ? true : false }
       size="lg"
