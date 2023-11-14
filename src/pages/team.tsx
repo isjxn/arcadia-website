@@ -37,7 +37,7 @@ export default function Team({ teamMembers }: { teamMembers: Array<TeamMember> }
       <div className="container mx-auto px-4">
         <Divider className="my-8" />
       </div>
-      <div className="container mx-auto gap-2 grid grid-cols-2 sm:grid-cols-4 px-8">
+      <div className="container mx-auto gap-2 grid grid-cols-1 md:grid-cols-2 px-8">
         {teamMembers.map((member, index) => {
           // eslint-disable-next-line react-hooks/rules-of-hooks
           const { isOpen, onOpen, onOpenChange } = useDisclosure();

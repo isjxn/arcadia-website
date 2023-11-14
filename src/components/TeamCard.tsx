@@ -4,7 +4,7 @@ import {Card, CardHeader, Avatar, Button} from "@nextui-org/react";
 
 export default function App({ username, uuid, role, onPress } : {username: string, uuid: string, role: string, onPress: () => void}) {
   return (
-    <Card className="max-w-[340px]">
+    <Card className="w-auto">
       <CardHeader className="justify-between">
         <div className="flex gap-5">
           <Avatar isBordered radius="full" size="md" src={`https://api.mineatar.io/head/${uuid}?scale=16`} />
