@@ -15,7 +15,7 @@ export default function App({ blogPosts }: { blogPosts: Array<BlogPost> }) {
     <>
       <Head>
         <title>Arcadia | Home</title>
-        <meta name="description" content="Arcadia | Home Page" />
+        <meta name="description" content="Arcadia | Willkommen auf Arcadia! Tauche ein in eine faszinierende Welt voller Rollenspiel-Abenteuer und entdecke die einzigartie Atmosphäre von Arcadia." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="h-screen bg-[url('/welcome2.png')] flex justify-center items-center">

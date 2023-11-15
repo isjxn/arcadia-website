@@ -19,6 +19,11 @@ const navbarConfig: Array<NavbarLink> = [
     text: 'Team'
   },
   {
+    url: 'https://drive.google.com/drive/folders/1fXWYO1NbbRdN7FQf2RTslD-PqIT7SA8F',
+    text: 'Resourcenpack',
+    externalLink: true
+  },
+  {
     url: 'https://wiki.mc-arcadia.de',
     text: 'Wiki',
     externalLink: true
