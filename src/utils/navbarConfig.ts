@@ -34,7 +34,7 @@ const navbarConfig: Array<NavbarLink> = [
     externalLink: true
   },
   {
-    url: 'https://discord.gg/jVmNMyV',
+    url: 'https://discord.gg/6RUM6e4mav',
     text: 'Discord',
     externalLink: true
   },
