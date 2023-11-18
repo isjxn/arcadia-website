@@ -16,12 +16,12 @@ export default function ArcadiaNavbar() {
     <Navbar onMenuOpenChange={setIsMenuOpen}>
       <NavbarMenuToggle
         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-        className="md:hidden"
+        className="lg:hidden"
       />
       <NavbarBrand>
         <p className="font-bold text-inherit">Arcadia 1.19.2</p>
       </NavbarBrand>
-      <NavbarContent className="hidden md:flex gap-4" justify="center">
+      <NavbarContent className="hidden lg:flex gap-4" justify="center">
         {navbarConfig.map((link, index) => {
           return (
             <NavbarItem key={index} isActive={link.url === pathname ? true : false}>

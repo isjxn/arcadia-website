@@ -50,8 +50,8 @@ export default function BlogPostPage({ blogPost }: { blogPost: BlogPost }) {
         <meta name="description" content={blogPost.title} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="h-screen flex justify-center items-center" style={backgroundImageStyle}>
-        <Card className="max-w-[960px] h-2/3">
+      <div className="h-screen w-full flex justify-center items-center" style={backgroundImageStyle}>
+        <Card className="w-11/12 lg:w-4/6 h-full lg:h-2/3">
           <CardHeader className="flex gap-3">
             <Image
               alt="Arcadia Logo"
